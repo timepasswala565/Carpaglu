@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ApexDrive | Automotive Culture, Reviews &amp; Car Guides</title>
+  <meta name="description" content="Explore ApexDrive for in-depth car reviews, electric vs gas comparisons, track day setups, and vehicle maintenance checklists. Drive smarter today!">
+  <link rel="canonical" href="https://YOUR-SITE.vercel.app/">
+  
+  <!-- OpenGraph Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ApexDrive">
+  <meta property="og:title" content="ApexDrive | Automotive Culture, Reviews &amp; Car Guides">
+  <meta property="og:description" content="Explore ApexDrive for in-depth car reviews, electric vs gas comparisons, track day setups, and vehicle maintenance checklists.">
+  <meta property="og:url" content="https://YOUR-SITE.vercel.app/">
+  <meta property="og:image" content="https://YOUR-SITE.vercel.app/car2.jpg">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ApexDrive | Automotive Culture, Reviews &amp; Car Guides">
+  <meta name="twitter:description" content="Explore ApexDrive for in-depth car reviews, electric vs gas comparisons, track day setups, and vehicle maintenance checklists.">
+  <meta name="twitter:image" content="https://YOUR-SITE.vercel.app/car2.jpg">
+  
+  <!-- Stylesheet -->
+  
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "ApexDrive",
+    "url": "https://YOUR-SITE.vercel.app/",
+    "description": "High-performance automotive publication delivering in-depth car reviews, technical guides, track day preparation, and car maintenance checklists.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "ApexDrive Media"
+    }
+  }
+  </script>
+  <link rel="stylesheet" crossorigin href="/assets/style-GfUTxMm1.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-icon">&#9650;</span>
+        <span>Apex<span class="accent">Drive</span></span>
+      </a>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="electric-vs-gas-cars.html" class="nav-link">EVs &amp; Hybrids</a></li>
+          <li><a href="top-sports-cars-2026.html" class="nav-link">Sports Cars</a></li>
+          <li><a href="car-maintenance-checklist.html" class="nav-link">Maintenance</a></li>
+          <li><a href="sitemap.xml" class="nav-link">Sitemap</a></li>
+        </ul>
+      </nav>
+      <a href="#searchSection" class="header-action">Search Guides &darr;</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-tag">Automotive Journalism &bull; 2026 Edition</span>
+      <h1 class="hero-title">High-Performance Car Culture, Engineering &amp; Buying Guides</h1>
+      <p class="hero-subtitle">
+        Unfiltered vehicle road tests, classic restoration walk-throughs, track preparation strategies, and technical automotive analysis written for drivers who demand excellence.
+      </p>
+      <div class="hero-meta-bar">
+        <span>&check; 10 In-Depth Guides</span>
+        <span>&bull;</span>
+        <span>&check; 100% Real World Data</span>
+        <span>&bull;</span>
+        <span>&check; Ready for Vercel Deployment</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content: Search Bar & 10 Blog Posts Grid -->
+  <main class="container" id="articles">
+    
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">Latest Automotive Dispatches</h2>
+        <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem;">
+          Filter across performance, restoration, EV technology, track setups, and vehicle care.
+        </p>
+      </div>
+      <span class="section-count" id="headerCount">10 POSTS PUBLISHED</span>
+    </div>
+
+    <!-- Keyword-Based Search Bar & Filters -->
+    <div class="search-section" id="searchSection">
+      <div class="search-input-container">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input 
+          type="search" 
+          id="searchInput" 
+          class="search-input" 
+          placeholder="Search guides by keyword (e.g. electric, Porsche, brakes, oil, turbo, SUV, track)..." 
+          autocomplete="off"
+          spellcheck="false"
+          aria-label="Search automotive guides"
+        >
+        <button type="button" id="clearSearchBtn" class="clear-search-btn" title="Clear search (Esc)" aria-label="Clear search">&times;</button>
+      </div>
+
+      <div class="search-toolbar">
+        <div class="search-tags" id="filterTags">
+          <span class="search-tag-label">Filter:</span>
+          <button type="button" class="filter-chip active" data-filter="all">All (10)</button>
+          <button type="button" class="filter-chip" data-filter="ev">EV &amp; Hybrid</button>
+          <button type="button" class="filter-chip" data-filter="performance">Performance</button>
+          <button type="button" class="filter-chip" data-filter="restoration">Restoration</button>
+          <button type="button" class="filter-chip" data-filter="suv">Family SUVs</button>
+          <button type="button" class="filter-chip" data-filter="track">Track Day</button>
+          <button type="button" class="filter-chip" data-filter="maintenance">Maintenance</button>
+          <button type="button" class="filter-chip" data-filter="off-road">Off-Road</button>
+        </div>
+        <div class="search-status" id="searchStatus">
+          <span>Showing 10 of 10 guides</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Posts Grid -->
+    <div class="blog-grid" id="blogGrid">
+
+      <!-- Post 1 -->
+      <article class="post-card" data-category="ev" data-keywords="electric ev gas hybrid battery charging tesla cost mileage range range-anxiety kilowatt lfp nmc torque zero emissions plug-in kwh">
+        <a href="electric-vs-gas-cars.html" class="card-image-wrap">
+          <img src="/assets/car1-Cb5YmBFd.jpg" alt="Electric sedan parked next to a gas sports coupe at sunrise charging station" class="card-image" loading="lazy">
+          <span class="card-badge">EV &amp; Hybrid</span>
+        </a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span>Oct 15, 2026</span>
+            <span>&bull;</span>
+            <span>6 min read</span>
+          </div>
+          <h3 class="card-title">
+            <a href="electric-vs-gas-cars.html">Electric vs Gas Cars: Total Cost, Range &amp; Performance Comparison</a>
+          </h3>
+          <p class="card-excerpt">
+            Break down real-world ownership costs, brake wear, battery degradation, road trip charging curves, and pure driving dynamics between internal combustion and EV drivetrains.
+          </p>
+          <div class="card-footer">
+            <a href="electric-vs-gas-cars.html">Read Full Guide &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 2 -->
+      <article class="post-card" data-category="performance" data-keywords="sports car speed handling porsche 911 gt3 corvette z06 supra toyota bmw m2 lap times manual 0-60 hp horsepower cornering canyon coupe">
+        <a href="top-sports-cars-2026.html" class="card-image-wrap">
+          <img src="/assets/car2-C3ksTVr0.jpg" alt="Metallic red modern sports coupe cornering on a scenic alpine pass" class="card-image" loading="lazy">
+          <span class="card-badge">Performance</span>
+        </a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span>Oct 14, 2026</span>
+            <span>&bull;</span>
+            <span>7 min read</span>
+          </div>
+          <h3 class="card-title">
+            <a href="top-sports-cars-2026.html">Top Sports Cars of 2026: Speed, Handling &amp; Buying Guide</a>
+          </h3>
+          <p class="card-excerpt">
+            From naturally aspirated track weapons to twin-turbo mid-engine beasts, we rank the benchmark driver's cars that deliver pure mechanical feedback.
+          </p>
+          <div class="card-footer">
+            <a href="top-sports-cars-2026.html">Read Full Guide &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 3 -->
+      <article class="post-card" data-category="restoration" data-keywords="classic car restoration rust barn find muscle car vintage repair metalwork carburetor paint bodywork oem parts wiring welding sandblasting 1960s">
+        <a href="classic-car-restoration-guide.html" class="card-image-wrap">
+          <img src="/assets/car3-zyJnTCNK.jpg" alt="Restored vintage 1960s muscle car with mirror finish blue paint inside a workshop" class="card-image" loading="lazy">
+          <span class="card-badge">Restoration</span>
+        </a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span>Oct 13, 2026</span>
+            <span>&bull;</span>
+            <span>8 min read</span>
+          </div>
+          <h3 class="card-title">
+            <a href="classic-car-restoration-guide.html">Classic Car Restoration: Step-by-Step Beginner's Guide</a>
+          </h3>
+          <p class="card-excerpt">
+            Learn how to inspect barn finds for structural rust, source hard-to-find vintage OEM parts, rebuild carburetors, and organize a multi-year restoration budget.
+          </p>
+          <div class="card-footer">
+            <a href="classic-car-restoration-guide.html">Read Full Guide &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 4 -->
+      <article class="post-card" data-category="suv" data-keywords="family suv safety iihs crash test cargo space third row 3-row crossover children latch toyota grand highlander honda pilot kia telluride subaru">
+        <a href="best-suvs-for-families.html" class="card-image-wrap">
+          <img src="/assets/car4-BIkykE5_.jpg" alt="Modern luxury family SUV cruising along a panoramic coastal highway" class="card-image" loading="lazy">
+          <span class="card-badge">Buyers Guide</span>
+        </a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span>Oct 12, 2026</span>
+            <span>&bull;</span>
+            <span>5 min read</span>
+          </div>
+          <h3 class="card-title">
+            <a href="best-suvs-for-families.html">Best Family SUVs: Safety Ratings, Cargo Space &amp; Comfort</a>
+          </h3>
+          <p class="card-excerpt">
+            Evaluating three-row crossovers on IIHS Top Safety Pick+ credentials, third-row legroom, car seat latch accessibility, and long-distance acoustic dampening.
+          </p>
+          <div class="card-footer">
+            <a href="best-suvs-for-families.html">Read Full Guide &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 5 -->
+      <article class="post-card" data-category="ev" data-keywords="hydrogen fuel cell fcev clean energy alternative h2 zero emissions water vapor 700 bar tanks refueling pem infrastructure mirai technology">
+        <a href="future-of-hydrogen-cars.html" class="card-image-wrap">
+          <img src="/assets/car5-BVzvyX3Q.jpg" alt="Futuristic hydrogen fuel cell hypercar with aerodynamic illumination at a pavilion" class="card-image" loading="lazy">
+          <span class="card-badge">Technology</span>
+        </a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span>Oct 11, 2026</span>
+            <span>&bull;</span>
+            <span>6 min read</span>
+          </div>
+          <h3 class="card-title">
+            <a href="future-of-hydrogen-cars.html">The Future of Hydrogen Fuel Cell Vehicles in Modern Transit</a>
+          </h3>
+          <p class="card-excerpt">
+            Explore 700-bar compressed hydrogen storage tanks, platinum catalyst fuel cell stacks, 3-minute refueling speeds, and the commercial infrastructure hurdle.
+          </p>
+          <div class="card-footer">
+            <a href="future-of-hydrogen-cars.html">Read Full Guide &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 6 -->
+      <article class="post-card" data-category="track" data-keywords="track day prep hpde circuit racing brakes fluid pads tire pressure torque lug nuts helmet apex pit lane safety motul castrol srf flags">
+        <a href="track-day-prep-for-beginners.html" class="card-image-wrap">
+          <img src="/assets/car6-Dcyd43Fv.jpg" alt="Track-prepared sports coupe on racing slicks in the pit lane of a circuit" class="card-image" loading="lazy">
+          <span class="card-badge">Motorsport</span>
+        </a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span>Oct 10, 2026</span>
+            <span>&bull;</span>
+            <span>7 min read</span>
+          </div>
+          <h3 class="card-title">
+            <a href="track-day-prep-for-beginners.html">Track Day Preparation: Essential Car Safety &amp; Setup Guide</a>
+          </h3>
+          <p class="card-excerpt">
+            Essential pre-grid checklist covering high-temp brake fluid flushes, tire pressure hot/cold deltas, torque wrench torque specs, and track etiquette.
+          </p>
+          <div class="card-footer">
+            <a href="track-day-prep-for-beginners.html">Read Full Guide &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 7 -->
+      <article class="post-card" data-category="performance" data-keywords="manual automatic transmission gearbox clutch pedal stick shift dct dual clutch pdk zf 8-speed paddle shifters heel toe downshift driver engagement">
+        <a href="manual-vs-automatic-transmission.html" class="card-image-wrap">
+          <img src="/assets/car7-NT7sWw_A.jpg" alt="Close-up of polished aluminum 6-speed manual gear shifter and clutch pedal" class="card-image" loading="lazy">
+          <span class="card-badge">Technical</span>
+        </a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span>Oct 09, 2026</span>
+            <span>&bull;</span>
+            <span>5 min read</span>
+          </div>
+          <h3 class="card-title">
+            <a href="manual-vs-automatic-transmission.html">Manual vs Automatic Transmission: Which Driving Experience is Best?</a>
+          </h3>
+          <p class="card-excerpt">
+            Comparing the visceral engagement of heel-and-toe downshifting against lightning-fast dual-clutch paddle shifts and torque-converter efficiency.
+          </p>
+          <div class="card-footer">
+            <a href="manual-vs-automatic-transmission.html">Read Full Guide &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 8 -->
+      <article class="post-card" data-category="maintenance" data-keywords="car maintenance checklist oil change synthetic fluid inspection brakes tires rotation coolant spark plugs air filter cabin filter diy longevity schedule">
+        <a href="car-maintenance-checklist.html" class="card-image-wrap">
+          <img src="/assets/car8-JKo4dOiu.jpg" alt="Automotive technician inspecting an engine bay with diagnostic tablet in a modern shop" class="card-image" loading="lazy">
+          <span class="card-badge">Maintenance</span>
+        </a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span>Oct 08, 2026</span>
+            <span>&bull;</span>
+            <span>6 min read</span>
+          </div>
+          <h3 class="card-title">
+            <a href="car-maintenance-checklist.html">The Ultimate 12-Month Car Maintenance &amp; Inspection Checklist</a>
+          </h3>
+          <p class="card-excerpt">
+            Protect vehicle resale value and mechanical longevity with our seasonal schedule covering fluids, serpentine belts, cabin filters, and suspension bushings.
+          </p>
+          <div class="card-footer">
+            <a href="car-maintenance-checklist.html">Read Full Guide &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 9 -->
+      <article class="post-card" data-category="performance" data-keywords="supercar hypercar megacar exotic carbon fiber monocoque active aerodynamics venturi ground effect koenigsegg bugatti ferrari mclaren horsepower downforce">
+        <a href="supercars-vs-hypercars.html" class="card-image-wrap">
+          <img src="/assets/car9-IhxVaJbI.jpg" alt="Exotic carbon fiber hypercar in an architectural showroom with aggressive rear wing" class="card-image" loading="lazy">
+          <span class="card-badge">Supercars</span>
+        </a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span>Oct 07, 2026</span>
+            <span>&bull;</span>
+            <span>6 min read</span>
+          </div>
+          <h3 class="card-title">
+            <a href="supercars-vs-hypercars.html">Supercars vs Hypercars: Horsepower, Aero &amp; Engineering Differences</a>
+          </h3>
+          <p class="card-excerpt">
+            Where does a 700-horsepower supercar end and a 1,500-horsepower active-aero carbon monocoque hypercar begin? We define the technical boundary.
+          </p>
+          <div class="card-footer">
+            <a href="supercars-vs-hypercars.html">Read Full Guide &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 10 -->
+      <article class="post-card" data-category="off-road" data-keywords="off-road 4x4 overland trail all-terrain tires winch locking differential skid plates dual battery roof tent recovery gear maxtrax expedition">
+        <a href="off-road-4x4-overlanding-guide.html" class="card-image-wrap">
+          <img src="/assets/car10-BcVMuY4F.jpg" alt="Overland 4x4 with roof tent and all-terrain tires climbing a rocky trail at golden hour" class="card-image" loading="lazy">
+          <span class="card-badge">Off-Road</span>
+        </a>
+        <div class="card-body">
+          <div class="card-meta">
+            <span>Oct 06, 2026</span>
+            <span>&bull;</span>
+            <span>8 min read</span>
+          </div>
+          <h3 class="card-title">
+            <a href="off-road-4x4-overlanding-guide.html">Off-Road 4x4 Overlanding: Essential Modifications &amp; Trail Gear</a>
+          </h3>
+          <p class="card-excerpt">
+            Upgrade your rig for self-sustained wilderness expeditions: locking differentials, dual-battery systems, winch rigging, and tire bead retention.
+          </p>
+          <div class="card-footer">
+            <a href="off-road-4x4-overlanding-guide.html">Read Full Guide &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- No Results State -->
+      <div id="noResults" class="no-results">
+        <h3>No matching guides found</h3>
+        <p>We couldn't find any articles matching your search query. Try searching for common terms like "electric", "Porsche", "brakes", "oil", "clutch", or "overlanding".</p>
+        <button type="button" id="resetSearchBtn" class="reset-search-btn">Reset Search &amp; Show All</button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <span class="brand-icon">&#9650;</span>
+            <span>Apex<span class="accent">Drive</span></span>
+          </a>
+          <p>
+            An independent automotive publication engineered for drivers, collectors, and mechanics. Delivering real road tests, technical teardowns, and maintenance wisdom.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Browse Topics</h4>
+          <ul class="footer-links">
+            <li><a href="electric-vs-gas-cars.html">EV vs Gas Cars</a></li>
+            <li><a href="top-sports-cars-2026.html">Top Sports Cars 2026</a></li>
+            <li><a href="supercars-vs-hypercars.html">Supercars vs Hypercars</a></li>
+            <li><a href="classic-car-restoration-guide.html">Classic Restoration</a></li>
+            <li><a href="best-suvs-for-families.html">Family SUV Guide</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Technical &amp; SEO</h4>
+          <ul class="footer-links">
+            <li><a href="track-day-prep-for-beginners.html">Track Day Preparation</a></li>
+            <li><a href="manual-vs-automatic-transmission.html">Manual vs Automatic</a></li>
+            <li><a href="car-maintenance-checklist.html">12-Month Checklist</a></li>
+            <li><a href="off-road-4x4-overlanding-guide.html">4x4 Overlanding Guide</a></li>
+            <li><a href="sitemap.xml">XML Sitemap</a></li>
+            <li><a href="robots.txt">Robots.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 ApexDrive. All rights reserved. Plain HTML &amp; CSS Static Blog.</p>
+        <div>
+          <span class="vercel-badge">
+            <svg width="12" height="12" viewBox="0 0 115 100" fill="currentColor"><path d="M57.5 0L115 100H0L57.5 0Z"/></svg>
+            Hosted on Vercel
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript for Live Keyword Search & Filter Chips -->
+  <script>
+    (function () {
+      const searchInput = document.getElementById('searchInput');
+      const clearBtn = document.getElementById('clearSearchBtn');
+      const resetBtn = document.getElementById('resetSearchBtn');
+      const searchStatus = document.getElementById('searchStatus');
+      const noResults = document.getElementById('noResults');
+      const filterChips = document.querySelectorAll('.filter-chip');
+      const postCards = Array.from(document.querySelectorAll('.post-card'));
+      const totalPosts = postCards.length;
+
+      let currentCategory = 'all';
+      let currentQuery = '';
+
+      function filterPosts() {
+        const query = currentQuery.trim().toLowerCase();
+        let visibleCount = 0;
+
+        // Toggle clear button visibility
+        if (query.length > 0) {
+          clearBtn.style.display = 'block';
+        } else {
+          clearBtn.style.display = 'none';
+        }
+
+        postCards.forEach(function (card) {
+          const category = card.getAttribute('data-category') || '';
+          const keywords = (card.getAttribute('data-keywords') || '').toLowerCase();
+          const title = (card.querySelector('.card-title') ? card.querySelector('.card-title').textContent : '').toLowerCase();
+          const excerpt = (card.querySelector('.card-excerpt') ? card.querySelector('.card-excerpt').textContent : '').toLowerCase();
+          const badge = (card.querySelector('.card-badge') ? card.querySelector('.card-badge').textContent : '').toLowerCase();
+
+          // Category match check
+          const matchesCategory = (currentCategory === 'all') || (category === currentCategory);
+
+          // Keyword / text search check
+          let matchesQuery = true;
+          if (query.length > 0) {
+            const searchCorpus = title + ' ' + excerpt + ' ' + badge + ' ' + keywords;
+            // Split search words for multi-word queries
+            const queryWords = query.split(/\s+/).filter(Boolean);
+            matchesQuery = queryWords.every(function (word) {
+              return searchCorpus.indexOf(word) !== -1;
+            });
+          }
+
+          if (matchesCategory && matchesQuery) {
+            card.style.display = 'flex';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        // Update count and no-results banner
+        if (visibleCount === 0) {
+          noResults.style.display = 'block';
+          searchStatus.innerHTML = '<span>0 guides found</span>';
+        } else {
+          noResults.style.display = 'none';
+          if (query.length > 0 || currentCategory !== 'all') {
+            searchStatus.innerHTML = '<span>Showing ' + visibleCount + ' of ' + totalPosts + ' guides</span>';
+          } else {
+            searchStatus.innerHTML = '<span>Showing ' + totalPosts + ' of ' + totalPosts + ' guides</span>';
+          }
+        }
+      }
+
+      // Input event listener for real-time search
+      searchInput.addEventListener('input', function (e) {
+        currentQuery = e.target.value;
+        filterPosts();
+      });
+
+      // Clear button handler
+      clearBtn.addEventListener('click', function () {
+        searchInput.value = '';
+        currentQuery = '';
+        filterPosts();
+        searchInput.focus();
+      });
+
+      // Reset button inside empty state
+      resetBtn.addEventListener('click', function () {
+        searchInput.value = '';
+        currentQuery = '';
+        currentCategory = 'all';
+        filterChips.forEach(function (c) { c.classList.remove('active'); });
+        const allChip = document.querySelector('.filter-chip[data-filter="all"]');
+        if (allChip) allChip.classList.add('active');
+        filterPosts();
+        searchInput.focus();
+      });
+
+      // Filter chips handler
+      filterChips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          filterChips.forEach(function (c) { c.classList.remove('active'); });
+          chip.classList.add('active');
+          currentCategory = chip.getAttribute('data-filter') || 'all';
+          filterPosts();
+        });
+      });
+
+      // Keyboard shortcuts: '/' focuses search input, 'Esc' clears
+      document.addEventListener('keydown', function (e) {
+        if (e.key === '/' && document.activeElement !== searchInput) {
+          e.preventDefault();
+          searchInput.focus();
+          searchInput.select();
+        } else if (e.key === 'Escape' && document.activeElement === searchInput) {
+          if (searchInput.value.length > 0) {
+            searchInput.value = '';
+            currentQuery = '';
+            filterPosts();
+          } else {
+            searchInput.blur();
+          }
+        }
+      });
+
+      // Handle optional URL search parameter e.g. index.html?q=electric
+      const urlParams = new URLSearchParams(window.location.search);
+      const initialQuery = urlParams.get('q');
+      if (initialQuery) {
+        searchInput.value = initialQuery;
+        currentQuery = initialQuery;
+        filterPosts();
+      }
+    })();
+  </script>
+
+</body>
+</html>

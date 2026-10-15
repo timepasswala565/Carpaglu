@@ -1,0 +1,6 @@
+{
+  "name": "ApexDrive - Automotive Culture & Car Guides",
+  "description": "A high-performance automotive blog featuring in-depth car reviews, maintenance guides, track day setups, and electric vs gas comparisons.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
